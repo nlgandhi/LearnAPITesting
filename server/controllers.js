@@ -1,4 +1,5 @@
-import { favMovies } from './models';
+// import { favMovies } from './models';
+const { favMovies } = require('./models')
 
 const getAllMovies = (req, res) => {
     return res.status(200).json({
@@ -7,7 +8,8 @@ const getAllMovies = (req, res) => {
     });
 };
 
-export default getAllMovies;
+console.log("Inside controllers File");
+module.exports = getAllMovies;
 
 
 
