@@ -1,11 +1,16 @@
-import chai from 'Chai'
-import chaiHttp from 'chai-http'
+// import chai from 'Chai'
+// import chaiHttp from 'chai-http'
+
+const chai = require('Chai');
+const chaiHttp = require('chai-http');
 
 // https://medium.com/@osahonoboite/testing-restful-apis-using-mocha-chai-and-chai-http-plugin-4b9feb45d50
 
 // we imported our express app instance. So instead of writing out complete url 
 // localhost:3000 every time, we could just request the app
-import app from ('../app')
+// import app from ('../app')
+const app = require('../src/app');
+
 const { expect } = chai;
 
 // chai.use(chaiHttp) tells chai to use the specified plugin. This is how chai uses every of its plugin.

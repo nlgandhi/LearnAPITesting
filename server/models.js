@@ -1,4 +1,4 @@
-export const favMovies = [
+const favMovies = [
     {
         id: 1,
         title: 'Inception',
@@ -19,7 +19,7 @@ export const favMovies = [
     }
 ];
 
-export const favFood = [
+const favFood = [
     {
         id: 1,
         name: 'Oha Soup',
@@ -37,3 +37,9 @@ export const favFood = [
     }
 ];
 
+console.log("Inside Models File");
+console.log(favMovies);
+
+module.exports = {
+    favMovies, favFood
+}
