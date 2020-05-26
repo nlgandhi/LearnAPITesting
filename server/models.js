@@ -1,4 +1,4 @@
-export const favMovies = [
+const favMovies = [
     {
         id: 1,
         title: 'Inception',
@@ -17,9 +17,15 @@ export const favMovies = [
         actor: 'Christian Bale',
         year: 2008
     }
+    {
+        id: 3,
+        title: 'Mission Impossible',
+        actor: 'Tom Cruise',
+        year: 2003
+    }
 ];
 
-export const favFood = [
+const favFood = [
     {
         id: 1,
         name: 'Oha Soup',
@@ -37,3 +43,9 @@ export const favFood = [
     }
 ];
 
+console.log("Inside Models File");
+console.log(favMovies);
+
+module.exports = {
+    favMovies, favFood
+}
