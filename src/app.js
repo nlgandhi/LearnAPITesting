@@ -1,6 +1,3 @@
-// import express from 'express'
-// import bodyParser from 'body-parser'
-// import routes from '../server/routes'
 
 const express = require('express');
 const bodyParser = require('body-parser');

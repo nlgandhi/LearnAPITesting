@@ -1,5 +1,3 @@
-// import chai from 'Chai'
-// import chaiHttp from 'chai-http'
 
 const chai = require('Chai');
 const chaiHttp = require('chai-http');
