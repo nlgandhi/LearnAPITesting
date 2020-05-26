@@ -16,7 +16,7 @@ const favMovies = [
         title: 'Dark Knight',
         actor: 'Christian Bale',
         year: 2008
-    }
+    },
     {
         id: 3,
         title: 'Mission Impossible',

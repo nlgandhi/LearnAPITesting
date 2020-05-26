@@ -1,4 +1,3 @@
-// import { favMovies } from './models';
 const { favMovies } = require('./models')
 
 const getAllMovies = (req, res) => {
