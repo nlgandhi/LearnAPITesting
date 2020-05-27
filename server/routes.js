@@ -8,7 +8,7 @@ const router = express.Router();
 // What we’re saying here is when a client reaches localhost:3000/movies we want the getAllMovies function to run. 
 router.get('/movies', getAllMovies);
 
-console.log("Inside Routes File");
+// console.log("Inside Routes File");
 module.exports = router;
 //export default router;
 

@@ -43,8 +43,8 @@ const favFood = [
     }
 ];
 
-console.log("Inside Models File");
-console.log(favMovies);
+//  console.log("Inside Models File");
+//  console.log(favMovies);
 
 module.exports = {
     favMovies, favFood
