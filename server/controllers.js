@@ -7,7 +7,7 @@ const getAllMovies = (req, res) => {
     });
 };
 
-console.log("Inside controllers File");
+// console.log("Inside controllers File");
 module.exports = getAllMovies;
 
 
