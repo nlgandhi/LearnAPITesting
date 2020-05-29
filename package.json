@@ -19,7 +19,8 @@
   "homepage": "https://github.com/O-Osahon/api-test#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mocha-eslint": "^6.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
